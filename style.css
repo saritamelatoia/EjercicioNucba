@@ -37,12 +37,14 @@ ul {
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin: 1rem;
 
 }
 
 .container {
     display:flex;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
+    
     justify-content:center;
     color: rgb(226, 54, 160);
     align-items: center;
@@ -58,12 +60,31 @@ ul {
 h1 {
     font-family: 'Bebas Neue', sans-serif;
     color: #fee440ff;
+    margin-top: 2rem;
 
     font-size: 3rem;
 }
 
-p {
+.textoslogan {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2rem;
     color: #fee440ff;
+}
+
+button {
+        font-size:25px;
+        font-family:fantasy;
+        font-weight:300;
+        color:white;
+        background:#f15bb5ff;
+        border:20px;
+        border:solid;
+        border-color: #fee440ff;
+        width:200px;
+        height: 100px;
+        margin-bottom: 2rem;
+}
+
+p {
+    color: white;
 }
