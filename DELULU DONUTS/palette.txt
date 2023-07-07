@@ -1,0 +1,25 @@
+/* Coolors Exported Palette - https://coolors.co/9b5de5-f15bb5-fee440-00bbf9-00f5d4 */
+
+/* CSV */
+9b5de5,f15bb5,fee440,00bbf9,00f5d4
+
+/* With # */
+#9b5de5, #f15bb5, #fee440, #00bbf9, #00f5d4
+
+/* Array */
+["9b5de5","f15bb5","fee440","00bbf9","00f5d4"]
+
+/* Object */
+{"Amethyst":"9b5de5","Brilliant rose":"f15bb5","Maize":"fee440","Deep Sky Blue":"00bbf9","Aquamarine":"00f5d4"}
+
+/* Extended Array */
+[{"name":"Amethyst","hex":"9b5de5","rgb":[155,93,229],"cmyk":[32,59,0,10],"hsb":[267,59,90],"hsl":[267,72,63],"lab":[52,52,-60]},{"name":"Brilliant rose","hex":"f15bb5","rgb":[241,91,181],"cmyk":[0,62,25,5],"hsb":[324,62,95],"hsl":[324,84,65],"lab":[61,66,-18]},{"name":"Maize","hex":"fee440","rgb":[254,228,64],"cmyk":[0,10,75,0],"hsb":[52,75,100],"hsl":[52,99,62],"lab":[90,-8,78]},{"name":"Deep Sky Blue","hex":"00bbf9","rgb":[0,187,249],"cmyk":[100,25,0,2],"hsb":[195,100,98],"hsl":[195,100,49],"lab":[71,-18,-42]},{"name":"Aquamarine","hex":"00f5d4","rgb":[0,245,212],"cmyk":[100,0,13,4],"hsb":[172,100,96],"hsl":[172,100,48],"lab":[87,-56,2]}]
+
+/* XML */
+<palette>
+  <color name="Amethyst" hex="9b5de5" r="155" g="93" b="229" />
+  <color name="Brilliant rose" hex="f15bb5" r="241" g="91" b="181" />
+  <color name="Maize" hex="fee440" r="254" g="228" b="64" />
+  <color name="Deep Sky Blue" hex="00bbf9" r="0" g="187" b="249" />
+  <color name="Aquamarine" hex="00f5d4" r="0" g="245" b="212" />
+</palette>
