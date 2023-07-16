@@ -1,3 +1,4 @@
+
 *{margin: 0;
 padding: 0;
 box-sizing:border-box;
@@ -22,10 +23,10 @@ ul a {
     color: rgb(234, 17, 147);
 }
 
-ul {
+.ulnav {
+    display: flex;
     list-style: none;
-    display:flex;
-    gap: 10px;
+    gap:10px;
 }
 
 .caja {
@@ -52,7 +53,7 @@ ul {
 }
 
 .fotocaja {
-    width: 500px;
+    width: 300px;
     height: 300px;
 }
 
@@ -60,7 +61,6 @@ h1 {
     font-family: 'Bebas Neue', sans-serif;
     color: #fee440ff;
     margin-top: 2rem;
-
     font-size: 3rem;
 }
 
@@ -72,7 +72,7 @@ h1 {
 
 button {
         font-size:25px;
-        font-family:fantasy;
+        font-family: 'Poppins', sans-serif;
         font-weight:300;
         color:white;
         background:#f15bb5ff;
@@ -86,5 +86,155 @@ button {
 
 p {
     color: white;
+
+}
+
+.lorem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+.title-cards {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    background-color: #f15bb5ff;
+    border-color: #f15bb5ff;
+    border-radius: 26px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 30px;
+}
+.card1 {
+    background-color: rgb(17, 255, 0);
+    width: 300px;
+    height: 70vh;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 15px;
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    top:0;
+    right: -100%;
+    color: #fff;
+    position:absolute;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1.5s;
+}
+
+.card1:hover:hover .card-body {
+    right: 0px;
+}
+
+.card-title {
+    text-transform:uppercase;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: rgb(226, 54, 160);
+
+}
+.card-sub-title {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.card-btn {
+    width: 120px;
+    height: 50px;
+    padding: 16px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline:none;
+    font-size:1rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.content {
+    margin-top: 15%;
+    margin-left: 3%;
+    color: #fff;
+}
+
+.contact-info {
+    background-color: #f15bb5ff;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+
+}
+
+.box {
+    list-style: circle;
+    padding-left: 10px;
+    margin: auto;
+    width: 30%;
+}
+
+.contactlocation {
+    margin-left: 5px;
+}
+
+.contactlist {
+    list-style: none;
+}
+
+.icon-location {
+    margin:10px;
+}
+
+.icon-email {
+    margin:10px;
+}
+
+.icon-phone {
+    margin:10px;
+}
+
+.img-footer {
+    width: 300px;
+    height: 300px;
+    justify-content: center;
 
 }
